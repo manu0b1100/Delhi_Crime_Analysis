@@ -8,11 +8,11 @@ function makeGraphs(error, recordsJson){
   //console.log(records);
   var dateFormat = d3.time.format("%Y-%m-%d");
   records.forEach(function(d) {
-    d["psdate"] = dateFormat.parse(d["psdate"]);
+    d["datefrom"] = dateFormat.parse(d["datefrom"]);
 });
 
   var data=crossfilter(records);
-  var dateDim = data.dimension(function(d) { return d["psdate"]; });
+  var dateDim = data.dimension(function(d) { return d["datefrom"]; });
   var numRecordsByDate = dateDim.group();
   var psDim=data.dimension(function(d){ return d["pstation"]});
   var disDim=data.dimension(function(d){ return d["district"]});
@@ -21,8 +21,8 @@ function makeGraphs(error, recordsJson){
   var timeDim=data.dimension(function(d){return d["hour"]});
   var allDim = data.dimension(function(d) {return d;});
   //var dateDim=data.dimension(function(d){return d["psdate"]});
-  var minDate = dateDim.bottom(1)[0]["psdate"];
-  var maxDate = dateDim.top(1)[0]["psdate"];
+  var minDate = dateDim.bottom(1)[0]["datefrom"];
+  var maxDate = dateDim.top(1)[0]["datefrom"];
 
     console.log(minDate);
     console.log(maxDate);
@@ -74,8 +74,8 @@ function makeGraphs(error, recordsJson){
     .group(all);
 
   pstationChart
-    .width(700)
-    .height(1000)
+    .width(1000)
+    .height(3000)
     .dimension(psDim)
     .group(psGroup2)
     .elasticX(true)
@@ -105,7 +105,7 @@ function makeGraphs(error, recordsJson){
     .margins({top: 10, right: 50, bottom: 20, left: 20})
     .dimension(dateDim)
     .group(numRecordsByDate)
-    .x(d3.time.scale().domain([minDate, maxDate]))
+    .x(d3.time.scale().domain([new Date(2017,1,1), maxDate]))
     .elasticY(true)
     .xAxis().ticks(4);
 
@@ -114,7 +114,7 @@ function makeGraphs(error, recordsJson){
     .height(1000)
     .dimension(offenceDim)
     .group(offenceGroup2)
-    .elasticX(true)
+    .elasticX(false)
     .xAxis().ticks(4);
 
   timeChart.width(650)
@@ -191,7 +191,7 @@ markbool=false;
   };
   drawMap();
 
-  dcCharts = [disChart,pstationChart,paharChart,offenceChart,timeChart];
+  dcCharts = [disChart,pstationChart,paharChart,offenceChart,timeChart,dateChart];
 
   _.each(dcCharts, function (dcChart) {
       dcChart.on("filtered", function (chart, filter) {

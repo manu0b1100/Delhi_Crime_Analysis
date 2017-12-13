@@ -11,7 +11,7 @@ def index():
 
 @app.route("/data")
 def get_data():
-    df=pd.read_csv("Dataset2/charged_lat_long_time.csv")
+    df=pd.read_csv("Dataset/master_lat_long.csv")
     return df.to_json(orient='records')
 
 if __name__=="__main__":

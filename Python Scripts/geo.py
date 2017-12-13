@@ -9,9 +9,11 @@ import numpy as np
 
 
 class Geocoding:
-    def __init__(self, input_file, output_file):
+    def __init__(self, input_file, output_file,start,end):
 
-        #os.chdir('/home/manobhav/PycharmProjects/demonetisation analysis/')
+        os.chdir('/home/manobhav/PycharmProjects/FirCrawler/Dataset3/')
+        self.start=start
+        self.end=end
         self.frame = pd.read_csv(input_file)
         self.frame = self.frame.replace(np.nan, '', regex=True)
         # self.frame.head() #Testing
@@ -22,9 +24,10 @@ class Geocoding:
         self.outputfile = output_file
         if (not os.path.exists(self.outputfile)):
             # df=pandas.DataFrame(columns=["acts","address","datefrom","dateto","day","district","filename","link","pahar","psdate","pstation","pstime","section","timefrom","timeto",])
-            df = pd.DataFrame(
-                columns=["acts", "address", "datefrom", "dateto", "day", "district", "filename", "link", "pahar",
-                         "psdate", "pstation", "pstime", "section", "timefrom", "timeto","Formatted_address","Lat","Long"])
+            col=[]
+            col.extend(self.frame.columns)
+            col.extend(["Formatted_address","Lat","Long"])
+            df = pd.DataFrame(columns=col)
 
             df.to_csv(self.outputfile, index=False)
 
@@ -32,7 +35,7 @@ class Geocoding:
 
     def getCityNames(self):
         #self.cities = self.frame.City[self.frame.City.isnull() == False].unique().tolist()
-        for c in self.frame.iloc[2000:2500].address.unique():
+        for c in self.frame.iloc[self.start:self.end].address.unique():
             if c !="" and "KNOWN" not in c:
                 self.q.put(c)
 
@@ -72,8 +75,8 @@ class Geocoding:
     def update_Data(self):
 
         res = pd.DataFrame(self.results)
-        updatedframe = pd.merge(self.frame.iloc[2000:2500], res, on='address', how='left', sort=False)
+        updatedframe = pd.merge(self.frame.iloc[self.start:self.end], res, on='address', how='left', sort=False)
         updatedframe.to_csv(self.outputfile, mode='a',header=False,index=False)
 
 
-geo = Geocoding('cleaned_data (copy).csv', 'mod.csv')
+geo = Geocoding('charged_address_time.csv', 'charged_address_time_lat_long.csv.csv',2000,2100)

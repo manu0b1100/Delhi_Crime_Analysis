@@ -1,0 +1,154 @@
+1513150382153	geckodriver	INFO	geckodriver 0.19.0
+1513150382202	geckodriver	INFO	Listening on 127.0.0.1:41041
+1513150383477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.T78Fa58VAGrJ"
+1513150384648	Marionette	INFO	Enabled via --marionette
+1513150389583	Marionette	INFO	Listening on port 34259
+1513150389648	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513150389736	Marionette	DEBUG	Register listener.js for window 2147483649
+1513150389979	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513150390204	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513150390205	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript error: http://59.180.234.21:8080/citizen/js/cal_control.js, line 22: ReferenceError: Class is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 929: ReferenceError: qm_create is not defined
+1513150396979	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://59.180.234.21:8080/citizen/firSearch.htm"
+JavaScript error: http://59.180.234.21:8080/citizen/js/tab_control.js, line 21: TypeError: this.TabElem is null
+1513150397060	Marionette	DEBUG	Received DOM event "pageshow" for "http://59.180.234.21:8080/citizen/firSearch.htm"
+1513150397419	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150397764	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150398095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150398392	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150398968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150399347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150399661	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150404947	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150410248	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150415527	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150420820	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150426195	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150426517	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150431809	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150437105	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150442395	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150447693	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150453057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150453390	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150458671	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150463974	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150469268	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150474562	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150479928	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150480260	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150485536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13290, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-bfYN6l/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1513150624175	geckodriver	INFO	geckodriver 0.19.0
+1513150624182	geckodriver	INFO	Listening on 127.0.0.1:50025
+1513150625312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.i3rCE0CMapQ6"
+1513150626139	Marionette	INFO	Enabled via --marionette
+1513150629532	Marionette	INFO	Listening on port 41169
+1513150629633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513150629708	Marionette	DEBUG	Register listener.js for window 2147483649
+1513150629727	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513150629942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513150629942	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript warning: http://59.180.234.21:8080/citizen/js/jquery.js, line 3667: unreachable code after return statement
+JavaScript error: http://59.180.234.21:8080/citizen/js/cal_control.js, line 22: ReferenceError: Class is not defined
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 929: ReferenceError: qm_create is not defined
+1513150633203	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://59.180.234.21:8080/citizen/firSearch.htm"
+JavaScript error: http://59.180.234.21:8080/citizen/js/tab_control.js, line 21: TypeError: this.TabElem is null
+1513150633262	Marionette	DEBUG	Received DOM event "pageshow" for "http://59.180.234.21:8080/citizen/firSearch.htm"
+1513150633626	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150633946	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150634254	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150634765	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150635089	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150635686	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150636004	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150636822	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150637137	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150637996	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150638305	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150639064	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150639399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150640304	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150640647	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150641760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150642100	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150642713	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150643042	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150644051	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150644414	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150645054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150645408	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150646220	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150646541	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150647607	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150647942	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150648875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1513150649222	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://59.180.234.21:8080/citizen/firSearch.htm, line 1: ReferenceError: validFirNum is not defined
+1513150649917	Marionette	DEBUG	Canceled page load listener because no navigation has been detected

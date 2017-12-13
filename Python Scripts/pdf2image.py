@@ -33,6 +33,7 @@ print(df.shape[0])
 count=df.shape[0]
 for dir,subdirlist,filelist in os.walk('Firs'):
     print(dir)
+
     filelist.sort()
     if(len(filelist)>0):
         for file in filelist:
@@ -41,8 +42,8 @@ for dir,subdirlist,filelist in os.walk('Firs'):
                 continue
             datum = {}
             datum["filename"] = file
-            datum["district"] = dir.split('/')[1]
-            datum["pstation"] = dir.split('/')[2]
+            datum["district"] = dir.split('/')[-2]
+            datum["pstation"] = dir.split('/')[-1]
             datum["link"] = "http://59.180.234.21:8080/citizen/gefirprint.htm?firRegNo=" + file[:-4]
             print(file)
             try:
