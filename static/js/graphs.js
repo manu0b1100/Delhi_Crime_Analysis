@@ -105,7 +105,7 @@ function makeGraphs(error, recordsJson){
     .margins({top: 10, right: 50, bottom: 20, left: 20})
     .dimension(dateDim)
     .group(numRecordsByDate)
-    .x(d3.time.scale().domain([new Date(2017,1,1), maxDate]))
+    .x(d3.time.scale().domain([new Date(2016,12,1), maxDate]))
     .elasticY(true)
     .xAxis().ticks(4);
 
