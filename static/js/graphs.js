@@ -1,5 +1,5 @@
 queue()
-    .defer(d3.json, "/data")
+    .defer(d3.csv, "Dataset/master_lat_long.csv")
 .await(makeGraphs);
 
 
@@ -66,7 +66,7 @@ function makeGraphs(error, recordsJson){
   var paharChart=dc.pieChart("#pahar-chart");
   var dateChart = dc.lineChart("#date-chart");
   var offenceChart=dc.rowChart('#offence-chart');
-  var timeChart = dc.lineChart("#time-chart");
+  var timeChart = dc.barChart("#time-chart");
 
   numberRecordsND
     .formatNumber(d3.format("d"))
@@ -123,7 +123,8 @@ function makeGraphs(error, recordsJson){
     .group(timeGroup)
 	.elasticY(true)
     .x(d3.scale.linear().domain([0,24]))
-    .xAxis();
+    .xAxis()
+
 
       var map=L.map('map');
 var cont;
