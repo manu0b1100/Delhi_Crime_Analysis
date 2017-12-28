@@ -31,7 +31,7 @@ if(not os.path.exists("my_csv.csv")):
 df=pandas.read_csv("my_csv.csv")
 print(df.shape[0])
 count=df.shape[0]
-for dir,subdirlist,filelist in os.walk('Firs'):
+for dir,subdirlist,filelist in os.walk('Firs2'):
     print(dir)
 
     filelist.sort()
@@ -67,7 +67,7 @@ for dir,subdirlist,filelist in os.walk('Firs'):
             c+=1
             print(datum)
 
-            if c>20:
+            if c>1:
                 c=0
                 df1 = pandas.DataFrame(data)
                 df1.to_csv('my_csv.csv', mode='a',index=False,header=False)

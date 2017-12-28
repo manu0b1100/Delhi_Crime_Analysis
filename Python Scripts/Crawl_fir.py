@@ -3,7 +3,7 @@ import os
 
 
 
-for dir,subdirlist,filelist in os.walk('Firs'):
+for dir,subdirlist,filelist in os.walk('Firs2'):
     print(dir)
     if(len(filelist)>0):
         count=0
