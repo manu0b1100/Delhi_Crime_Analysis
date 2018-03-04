@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crime Prediction</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #mapgoogle {
+            height: 50%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #floating-panel {
+            position: absolute;
+            top: 10px;
+            left: 25%;
+            z-index: 5;
+            background-color: #fff;
+            padding: 5px;
+            border: 1px solid #999;
+            text-align: center;
+            font-family: 'Roboto', 'sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"
+            type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"
+          type="text/css"/>
+    <script type="text/javascript" src="./static/js/prediction.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+<div id="floating-panel">
+    <input id="address" type="textbox" value="New Delhi, India">
+    <input id="submit" type="button" value="Find">
+</div>
+
+<div id="mapgoogle"></div>
+<script type="text/javascript" src="./static/js/prediction.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfY0U8uJ1jk-i0GVv_jUFHN8Fv7gUaMbY&callback=initMap"
+        async defer></script>
+<div id="probachart">
+
+    <select id="proba_district_select">
+        {% for i in districts %}
+        <option value="{{i}}">{{i}}</option>
+        {% endfor %}
+    </select>
+    <select id="proba_pstation_select">
+        {% for i in pstations %}
+        <option value="{{i}}">{{i}}</option>
+        {% endfor %}
+    </select>
+    <select id="proba_hour_select">
+        {% for i in range(24) %}
+        <option value="{{i}}">{{i}}</option>
+        {% endfor %}
+    </select>
+
+    <button type="submit" id="subproba">Predict</button>
+
+
+    <div id="proba_graph"></div>
+
+</div>
+
+</body>
+</html>
