@@ -1,3 +1,7 @@
 Flask
 gunicorn
 pandas
+plotly
+numpy
+scipy
+sklearn
