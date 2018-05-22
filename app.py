@@ -6,7 +6,7 @@ import os
 from flask import Flask, flash, request, redirect, url_for, session
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = '/home/manobhav/PycharmProjects/FirCrawler/Uploads'
+UPLOAD_FOLDER = 'Uploads'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif','csv'])
 
 app = Flask(__name__)
