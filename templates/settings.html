@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/settings" method="post">
+{% for nc in needed_columns %}
+<div>{{nc}}</div>
+<select name="{{nc}}" id="{{nc}}" {% if nc in required%} required {%endif%}>
+    <option value="">--NA--</option>
+    {% for c in columns %}
+    <option value="{{c}}">{{c}}</option>
+    {% endfor %}
+</select>
+<br>
+{% endfor%}
+    <input type="submit" value="OK">
+</form>
+
+
+
+</body>
+</html>

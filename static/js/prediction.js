@@ -113,7 +113,10 @@ function initMap() {
         center: {lat: 28.644800, lng: 77.216721},
         zoom: 12
     });
+    lat = 28.644800;
+    long = 77.216721;
     placemarker_panto({lat: 28.644800, lng: 77.216721}, mapgoogle);
+    set_district();
     mapgoogle.addListener('click', function (e) {
         if (marker) {
             marker.setMap(null)
